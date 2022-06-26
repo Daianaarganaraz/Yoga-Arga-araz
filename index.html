@@ -4,11 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste Yoga</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <header>
-      <a href="./index.html">
+      <a href="./index.html" data-aos="fade-in"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out">
         <img class="logo" src="assets/images/logo-yoga.jpg" alt="">
       </a>
       <nav class="navbar">
@@ -38,11 +42,15 @@
       <section id="header-home">
         <article>
           <img src="assets/images/yogaheader.jpg" alt="" />
-          <h2>Namaste Yoga</h2>
+          <h2 data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out">Namaste Yoga</h2>
         </article>
       </section>
 
-      <section>
+      <section data-aos="fade-out"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out">
         <article id="content">
           <div class="parrafo">
             <h3>Yoga y Meditación</h3>
@@ -66,5 +74,10 @@
     <footer id="footer">
       <p>Copyright &copy; - Todos los derechos reservados</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

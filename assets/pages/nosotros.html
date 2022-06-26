@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste Yoga</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
@@ -38,7 +39,9 @@
         <article>
           <div class="nosotros-header">
             <img src="../images/espacio-yoga.jpg" alt="" />
-            <h1>Nosotros</h1>
+            <h1 data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out">Nosotros</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ex
               reiciendis libero harum repellat ipsam porro autem quos vero. Natus
@@ -72,5 +75,9 @@
     <footer id="footer">
       <p>Copyright &copy; - Todos los derechos reservados</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

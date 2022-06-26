@@ -66,7 +66,7 @@ header {
 }
 
 .nav-link:hover {
-    color: #783d16;
+    color: #fff;
 }
 
 main {
@@ -124,6 +124,11 @@ main {
     width: 100%;
     border-radius: 35px;
     border: 1px solid #783d16;
+    transition: all .3s ease-in-out;
+}
+
+.imagen img:hover {
+    transform: scale(1.02);
 }
 
 #footer {
@@ -203,6 +208,11 @@ main {
     width: 100%;
     border-radius: 35px;
     border: 1px solid #783d16;
+    transition: all .3s ease-in-out;
+}
+
+.imagen2 img:hover {
+    transform: scale(1.02);
 }
 
 .parrafo2 {
@@ -225,6 +235,11 @@ main {
     width: 100%;
     border-radius: 35px;
     border: 1px solid #783d16;
+    transition: all .3s ease-in-out;
+}
+
+.imagen1 img:hover {
+    transform: scale(1.02);
 }
 
 #novedades1 {
@@ -267,6 +282,11 @@ main {
     width: 100%;
     border-radius: 35px;
     border: 1px solid #783d16;
+    transition: all .3s ease-in-out;
+}
+
+.imagen3 img:hover {
+    transform: scale(1.02);
 }
 
 

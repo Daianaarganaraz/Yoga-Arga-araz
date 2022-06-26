@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste Yoga</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
@@ -38,7 +39,9 @@
         <article>
           <div class="clases-header">
             <img src="../images/yoganos.jpg" alt="">
-            <h1>Clases</h1>
+            <h1 data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out">Clases</h1>
           </div>
         </article>
       </section>
@@ -93,5 +96,9 @@
     <footer id="footer">
       <p>Copyright &copy; - Todos los derechos reservados</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
