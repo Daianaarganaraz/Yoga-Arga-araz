@@ -1,0 +1,492 @@
+/* fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+/* normalice */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* globales */
+html {
+    font-size: 62.5%;
+    font-family: 'Joan', sans-serif;
+}
+
+body {
+    font-size: 1.6em;
+    color: #000;
+    max-width: 1028px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "main  main  main  main  main"
+    "main  main  main  main  main"
+    "footer footer footer footer footer";
+}
+
+
+header {
+    background-color: #bb9c89;
+    padding: 10px 20px;
+    grid-area: header;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar {
+    padding: 0px 0;
+    ul {
+        margin-left: auto;
+        .nav-item {
+            list-style: none;
+            margin: 0 8px;
+            .nav-link {
+                text-decoration: none;
+                color: #000 !important;
+                font-family: 'Joan', sans-serif;
+                font-size: 16px;
+                transition: all .3s ease-in;
+                &:hover {
+                    color: #fff !important;
+                }
+            }
+
+        }
+    }
+}
+
+
+.container-fluid, .row {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    grid-area: main;
+}
+
+#header-home {
+    position: relative;
+    .col-12 {
+        padding: 0;
+        img {
+            width: 100%;
+        }
+        h2 {
+            color: #783d16;
+            font-family: 'Joan', sans-serif;
+            position: absolute;
+            font-size: 48px;
+            top: 110px;
+            left: 35px;
+        }        
+    }
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin: 40px 0;
+    .parrafo {
+        padding: 40px 40px 40px 35px;
+        h3 {
+            font-family: 'Joan', sans-serif;
+            color: #783d16;
+            font-weight: 700;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: 'Joan';
+            color: #783d16;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: justify;
+        }
+    }
+}
+
+.box {
+    width: 50%;
+}
+
+.imagen {
+    img {
+        width: 100%;
+        border-radius: 35px;
+        border: 1px solid #783d16;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}
+
+#footer {
+    background-color: #bb9c89;
+    text-align: center;
+    padding: 10px 0;
+    grid-area: footer;
+    p {
+        font-family: 'Joan', sans-serif;
+        font-size: 14px;
+        color: #000;
+    }
+}
+
+.nosotros-header {
+    img {
+        width: 100%;
+    }
+    h1 {
+        color: #783d16;
+        margin: 20px 0;
+        font-family: 'Joan', sans-serif;
+        text-align: center;
+        font-size: 46px;
+    }
+    p {
+        font-family: 'Joan';
+        color: #000;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center; 
+        margin-bottom: 40px;
+    }
+}
+
+#profesora {
+    display: flex;
+    margin: 10px 0 40px 0;
+    flex-wrap: wrap;
+    .parrafo {
+        padding: 40px 40px 40px 35px;
+        h3 {
+            font-family: 'Joan', sans-serif;
+            color: #783d16;
+            font-weight: 700;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: 'Joan';
+            color: #783d16;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: justify;
+        }
+    }
+}
+
+.clases-header {
+    img {
+        width: 100%;
+    }
+    h1 {
+        color: #783d16;
+        margin: 20px 0;
+        font-family: 'Joan', sans-serif;
+        text-align: center;
+        font-size: 46px;
+    }
+}
+
+#content-clases {
+    p {
+        font-family: 'Joan';
+        color: #000;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center; 
+        margin-bottom: 40px;
+    }
+}
+
+
+#clase, #clase2 {
+    display: flex;
+    margin: 10px 0 40px 0;
+    flex-wrap: wrap;
+    .parrafo {
+        padding: 40px 40px 40px 35px;
+        h3 {
+            font-family: 'Joan', sans-serif;
+            color: #783d16;
+            font-weight: 700;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: 'Joan';
+            color: #783d16;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: justify;
+        }
+    }
+}
+
+
+.imagen2 {
+    img {
+        width: 100%;
+        border-radius: 35px;
+        border: 1px solid #783d16;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}
+
+
+.parrafo2 {
+    font-family: 'Joan';
+    color: #783d16;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 40px; 
+}
+
+.novedades-header h1 {
+    color: #783d16;
+    margin: 20px 0;
+    font-family: 'Joan', sans-serif;
+    text-align: center;
+    font-size: 46px;
+}
+
+.imagen1 {
+    img {
+        width: 100%;
+        border-radius: 35px;
+        border: 1px solid #783d16;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}
+
+#novedades1, #novedades2, #novedades3 {
+    display: flex;
+    margin: 10px 0 40px 0;
+    flex-wrap: wrap;
+}
+
+.parrafo1 {
+    font-family: 'Joan';
+    color: #783d16;
+    font-weight: 300;
+    font-size: 18px; 
+    text-align: justify;
+    padding: 40px;
+}
+
+
+.parrafo3 {
+    font-family: 'Joan';
+    color: #783d16;
+    font-weight: 300;
+    font-size: 18px; 
+    text-align: justify;
+    padding: 40px;
+}
+
+.imagen3  {
+    img {
+        width: 100%;
+        border-radius: 35px;
+        border: 1px solid #783d16;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}
+
+
+#formulario {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;    
+    .contacto-titulo {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 40px;
+        font-family: "joan";
+        color: #783d16;
+    
+    }
+    fieldset {
+        padding: 20px;
+        legend{
+            font-family: "joan";
+            color: #783d16;
+        }
+        label{
+            color: #783d16;
+            font-family:"joan";
+            font-size: 18px  ;
+            margin: 10px 0;
+        }
+        input,textarea {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #000;
+            font-family: "joan";
+            font-size:16px; ;
+            margin: 5px 0 10px 0;
+            &::placeholder {
+                font-family: "joan";
+                font-size:16px; 
+        
+            }
+        }
+        
+        input[type="submit"] {
+            width: fit-content;
+            margin: auto;
+            padding: 8px 15px;
+            border: none;
+            margin: 15px 0;
+            background-color: #783d16;
+            border-radius: 25px;
+            color: white;
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+}
+
+
+.contacto-header {
+    h1 {
+        color: #783d16;
+        margin: 20px 0;
+        font-family: 'Joan', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {    
+    #header-home {
+
+        h2 {
+            font-size: 28px;
+            top: 30px;
+            left: 25px;
+        }
+    }
+    #content {
+        padding: 20px;
+        margin: 10px 0 40px 0;
+        .parrafo {
+            padding: 30px 10px 40px 5px;
+            h3 {
+                font-size: 24px;
+                text-align: center;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .nosotros-header {
+        h1 {
+           font-size: 36px;
+       }
+       p {
+            font-size: 16px;
+            text-align: center; 
+            margin-bottom: 35px;
+            width: 90%;
+            margin: auto;
+        }
+
+    }
+
+    .box {
+        width: auto;
+    }
+
+    #profesora {
+        display: flex;
+        margin: 10px 0 40px 0;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .clases-header {
+
+        h1 {
+            margin: 20px 0;
+            font-size: 36px;
+        }
+    }
+    
+    #content-clases {
+
+        p {
+            font-size: 16px;
+            width: 90%;
+            margin: auto;
+        }
+    }
+        
+    .parrafo1, .parrafo2, .parrafo3 {
+        font-size: 16px;
+        padding: 0px; 
+    }
+
+    .imagen1, .imagen2, .imagen3 {
+        margin-bottom: 30px;
+    }
+
+    #clase {
+        margin: 10px 0 0 0;
+    }
+
+    #clase, #clase2 {
+        padding: 20px;
+    }
+
+    #novedades1, #novedades2, #novedades3 {
+        padding: 20px;
+    }
+
+    #formulario {
+        padding: 20px;
+    }
+
+    #formulario {
+
+        .box {
+            width: 100%;
+        }
+    }
+    
+    .contacto-titulo {
+        margin: 30px 0;
+        font-size: 26px;
+        text-align: center;
+        br {
+            display: none;
+        }
+    }
+
+}
+
+
