@@ -1,0 +1,30 @@
+{
+  "name": "yoga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daianaarganaraz/Yoga-Arga-araz.git"
+  },
+  "keywords": [
+    "Yoga",
+    "Clases",
+    "Escuela",
+    "de",
+    "yoga"
+  ],
+  "author": "Daiana Argañaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daianaarganaraz/Yoga-Arga-araz/issues"
+  },
+  "homepage": "https://github.com/Daianaarganaraz/Yoga-Arga-araz#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
