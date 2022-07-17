@@ -10,6 +10,13 @@
           box-sizing: border-box;
 }
 
+/* Creando mapa */
+.parrafos, #content .parrafo p, .nosotros-header p, #profesora .parrafo p, #content-clases p, #clase .parrafo p, #clase2 .parrafo p {
+  font-family: 'Joan';
+  font-size: 18px;
+  font-weight: 300;
+}
+
 /* globales */
 html {
   font-size: 62.5%;
@@ -55,7 +62,7 @@ header {
 .navbar ul .nav-item .nav-link {
   text-decoration: none;
   color: #000 !important;
-  font-family: 'Joan', sans-serif;
+  font-family: "Joan";
   font-size: 16px;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
@@ -90,7 +97,7 @@ main {
   width: 100%;
 }
 
-#header-home .col-12 h2 {
+#header-home .col-12 title {
   color: #783d16;
   font-family: 'Joan', sans-serif;
   position: absolute;
@@ -111,7 +118,7 @@ main {
   padding: 40px 40px 40px 35px;
 }
 
-#content .parrafo h3 {
+#content .parrafo h1 {
   font-family: 'Joan', sans-serif;
   color: #783d16;
   font-weight: 700;
@@ -120,10 +127,7 @@ main {
 }
 
 #content .parrafo p {
-  font-family: 'Joan';
   color: #783d16;
-  font-weight: 300;
-  font-size: 18px;
   text-align: justify;
 }
 
@@ -173,10 +177,7 @@ main {
 }
 
 .nosotros-header p {
-  font-family: 'Joan';
   color: #000;
-  font-weight: 300;
-  font-size: 18px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -203,10 +204,7 @@ main {
 }
 
 #profesora .parrafo p {
-  font-family: 'Joan';
   color: #783d16;
-  font-weight: 300;
-  font-size: 18px;
   text-align: justify;
 }
 
@@ -223,10 +221,7 @@ main {
 }
 
 #content-clases p {
-  font-family: 'Joan';
   color: #000;
-  font-weight: 300;
-  font-size: 18px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -253,10 +248,7 @@ main {
 }
 
 #clase .parrafo p, #clase2 .parrafo p {
-  font-family: 'Joan';
   color: #783d16;
-  font-weight: 300;
-  font-size: 18px;
   text-align: justify;
 }
 
@@ -414,6 +406,7 @@ main {
   margin: 15px 0;
   background-color: #783d16;
   border-radius: 25px;
+  border: none;
   color: white;
 }
 
@@ -421,7 +414,7 @@ main {
   opacity: .7;
 }
 
-.contacto-header h1 {
+.contacto-header title {
   color: #783d16;
   margin: 20px 0;
   font-family: 'Joan', sans-serif;
